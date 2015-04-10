@@ -1,0 +1,6 @@
+ $ mkdir certificates
+
+ $ openssl req -x509 -days 365 -nodes -newkey rsa:1024 -keyout certificates/key.pem -out certificates/cert.pem
+
+ $ openssl rsa -in certificates/key.pem -pubout > certificates/public_key.pub
+
