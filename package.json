@@ -1,5 +1,5 @@
 {
-  "name": "lighstream",
+  "name": "light-cloudlet",
   "version": "0.0.1",
   "description": "a simple connected light service gateway",
   "main": "server.js",
